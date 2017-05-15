@@ -1,0 +1,248 @@
+
+#logo{
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+#title{
+    position: absolute;
+    left: 400px;
+    top: 12px;
+    color: brown;
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 2.0em;
+}
+#search{
+    float:right;
+    padding:20px;
+}
+.tfbutton {
+    padding: 5px 15px;
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    font-size:14px;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    border: 1px solid #0076a3; border-right:0px;
+    background: #BEB5B2;
+    position: absolute;
+    right: 100px;
+    top: 30px;
+}
+.tftextinput{
+    padding: 5px 15px;
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    font-size:14px;
+    border:1px solid #0076a3; border-right:0px;
+    position: absolute;
+    right: 176px;
+    top: 30px;
+    border-top-left-radius: 5px 5px;
+    border-bottom-left-radius: 5px 5px;
+}
+
+.logout{
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    right:110px;
+    top:80px;
+}
+
+.myAcc{
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    right:220px;
+    top: 80px;
+}
+
+#menuBar{
+    position: absolute;
+    top: 120px;
+}
+nav {
+    background-color: #3b5998;
+    border: 1px solid #dedede;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.055);
+    color: white;
+    display: block;
+    margin: 8px 22px 8px 22px;
+    overflow: hidden;
+    width: 1300px;
+    height: 50px;
+    
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 18px;
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    
+}
+nav ul li a {
+    color: white;
+    display: block;
+    line-height: 56px;
+    padding: 0 24px;
+    text-decoration: none;
+}
+nav ul  li:hover {
+    background-color: #6d84b4;
+}
+nav  ul li:hover a {
+    color: white;
+}
+
+#mngusers{
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    position: relative;
+    top: 190px;
+    left: 24px;
+    height: 40em;
+    width: 96.2%;
+    background-color: #FAFAFA;
+}
+
+
+#u1Details{
+    position: absolute;
+    top: 80px;
+    left: 25px;
+}
+
+#u1Details td{
+    padding: 3px;
+    font-size:15px;
+}
+
+#u1Ubk{
+    position: relative;
+    top: 160px;
+    left: 110px;
+} 
+
+#u1BckTest{
+    position: relative;
+    top: 160px;
+    left: 60px;   
+}
+
+#u1UbkTest{
+    position: relative;
+    top: 160px;
+    left: 120px;
+} 
+
+#u2Details{
+    position: absolute;
+    top: 83px;
+    left: 360px;
+}
+
+#u2Details td{
+    padding: 3px;
+    font-size:15px;
+}
+
+#u3Details{
+    position: absolute;
+    top: 83px;
+    left: 720px;
+}
+
+#u3Details td{
+    padding: 3px;
+    font-size:15px;
+}
+
+#u3Bck{
+    position: relative;
+    top: 130px;
+    left: 770px;
+}
+
+#u3Ubk{
+    position: relative;
+    top: 130px;
+    left: 810px;   
+}
+
+#u3UbkTest{
+    position: relative;
+    top: 150px;
+    left: 790px;    
+}
+
+
+.blckbut,.ublkbut{
+    background-color: #b3b3b3;
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.blckbut:hover,.ublkbut:hover{
+    background-color: #4195fc;
+    border: 1px solid rgba(0,0,0,.1);
+    color: rgb(255,255,255);
+    cursor: pointer;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+
+.footer {
+	padding: 10px 0;
+	position: absolute;
+        left: 30px;
+        bottom: 0px;
+        width: 95.1%;
+        height: 3%;
+	font-family:"Open Sans", Arial, Helvetica, Geneva, sans-serif;
+        font-size: 12px;
+        color: whitesmoke;
+        background-color: black;
+}
+
+#BlckCfm{
+    position: relative;
+    top: 180px;
+    left: 25px;
+    background-color: #FAFAFA;
+    height: 40em;
+    width: 96%;
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+}
+
+#BlckSucsImg{
+    position: relative;
+    top: 100px;
+    left:140px;
+}
+
+#BlckText{
+    position: relative;
+    top: 20px;
+    left: 240px;
+    font-size: 18px;
+}

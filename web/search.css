@@ -1,0 +1,230 @@
+
+#logo{
+    position: absolute;
+    left: 3.125em;
+    top: 0.625em;
+}
+#title{
+    position: relative;
+    left: 12em;
+    top: 0.75em;
+    color: brown;
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 2.0em;
+}
+#search{
+    float:right;
+    padding:1.25em;
+}
+.tfbutton {
+    padding: 0.3125em 0.9375em;
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    font-size:0.875em;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    border: 1px solid #0076a3; border-right:0px;
+    background: #BEB5B2;
+    position: absolute;
+    right: 6.25em;
+    top: 1.875em;
+}
+.tftextinput{
+    padding: 0.3125em 0.9375em;
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    font-size:0.875em;
+    border:1px solid #0076a3; border-right:0px;
+    position: absolute;
+    right: 11em;
+    top: 1.875em;
+    border-top-left-radius: 5px 5px;
+    border-bottom-left-radius: 5px 5px;
+}
+
+.logout{
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    right:110px;
+    top:80px;
+}
+
+.myAcc{
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    right:220px;
+    top: 80px;
+}
+
+#menuBar{
+    position: absolute;
+    top: 7.5em;
+}
+nav {
+    background-color: #3b5998;
+    border: 0.0625em solid #dedede;
+    border-radius: 0.25em;
+    box-shadow: 0 0.125em 0.125em -0.0625em rgba(0, 0, 0, 0.055);
+    color: white;
+    display: block;
+    margin: 0.05em  0.5em 1.375em;
+    overflow: hidden;
+    width: 81.25em;
+    height: 3.125em;
+    
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 1.125em;
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    
+}
+nav ul li a {
+    color: white;
+    display: block;
+    line-height: 3.5em;
+    padding: 0 1.5em;
+    text-decoration: none;
+}
+nav ul  li:hover {
+    background-color: #6d84b4;
+}
+nav  ul li:hover a {
+    color: white;
+}
+
+h2 {
+	font-size: 1.5em;	
+	font-weight: bold;
+	margin: 0 0 24px 0;
+        font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+}
+		
+.footer {
+	padding: 10px 0;
+	position: absolute;
+        left: 18px;
+        top: 220%;
+        width: 96.4%;
+        height: 3%;
+	font-family:"Open Sans", Arial, Helvetica, Geneva, sans-serif;
+        font-size: 12px;
+        color: whitesmoke;
+        background-color: black;
+}
+
+#container{
+    width:96.5%;
+    height:200%;
+    background-color: #FAFAFA;
+    position: absolute;
+    top:180px;
+    left:18px;
+    font-family : "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+}
+.category li{
+    padding: 10px;
+    font-size: 20px;
+    list-style-type: none;
+}
+.category li a{
+    text-decoration: none;
+}
+
+.category li a:hover{
+    text-decoration: underline;
+}
+#searchresults{
+    position: absolute;
+    top: 1%;
+    left: 30%
+        
+}
+#fiction1{
+    position: absolute;
+    top: 4em;
+    left: 1em;
+}
+
+#fic1{
+    position: absolute;
+    width: 100%;
+    top:12%;
+    left:50%; 
+}
+
+#fiction2{
+    position: relative;
+    top: 11em;
+    left:1em;
+    
+}
+#fic2{
+    position: absolute;
+    width: 100%;
+    top:33%;
+    left:50%; 
+}
+
+#fiction3{
+    position: relative;
+    top: 13em;
+    left:1em;
+}
+#fic3{
+     position: absolute;
+      width: 100%;
+      top:56%;
+      left:50%; 
+}
+
+#fiction4{
+    position: relative;
+    top: 15em;
+    left:1em;
+}
+
+#fic4{
+      position: absolute;
+      width: 100%;
+      top:78%;
+      left:50%; 
+}
+
+#fiction5{
+    position: relative;
+    top: 17em;
+    left: 1em;
+}
+#fic5{
+     position: absolute;
+      width: 100%;
+      top:100%;
+      left:50%; 
+}
+
+#fiction6{
+    position: relative;
+    top: 19em;
+    left: 1em;
+}
+#fic6{
+     position: absolute;
+      width: 100%;
+      top:122%;
+      left:50%; 
+}

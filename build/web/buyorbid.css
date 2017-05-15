@@ -1,0 +1,411 @@
+
+#logo{
+    position: absolute;
+    left: 3.125em;
+    top: 0.625em;
+}
+#title{
+    position: relative;
+    left: 12em;
+    top: 0.75em;
+    color: brown;
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 2.0em;
+}
+#search{
+    float:right;
+    padding:1.25em;
+}
+.tfbutton {
+    padding: 0.3125em 0.9375em;
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    font-size:0.875em;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    border: 1px solid #0076a3; border-right:0px;
+    background: #BEB5B2;
+    position: absolute;
+    right: 6.25em;
+    top: 1.875em;
+    /*background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+    //background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+    //border-top-right-radius: 5px 100px;
+    //border-bottom-right-radius: 5px 5px;*/
+}
+.tftextinput{
+    padding: 0.3125em 0.9375em;
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    font-size:14px;
+    border:1px solid #0076a3; border-right:0px;
+    position: absolute;
+    right: 11em;
+    top: 1.875em;
+    border-top-left-radius: 5px 5px;
+    border-bottom-left-radius: 5px 5px;
+}
+
+.logout{
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    right:110px;
+    top:80px;
+}
+
+.myAcc{
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    right:220px;
+    top: 80px;
+}
+
+#menuBar{
+    position: absolute;
+    top: 7.5em;
+}
+nav {
+    background-color: #3b5998;
+    border: 0.0625em solid #dedede;
+    border-radius: 0.25em;
+    box-shadow: 0 0.125em 0.125em -0.0625em rgba(0, 0, 0, 0.055);
+    color: white;
+    display: block;
+    margin: 0.05em  0.5em 1.375em;
+    overflow: hidden;
+    width: 81.25em;
+    height: 3.125em;
+    
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 1.125em;
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    
+}
+nav ul li a {
+    color: white;
+    display: block;
+    line-height: 3.5em;
+    padding: 0 1.5em;
+    text-decoration: none;
+}
+nav ul  li:hover {
+    background-color: #6d84b4;
+}
+nav  ul li:hover a {
+    /*color: rgb( 255, 255, 255 );*/
+    color: white;
+}
+
+#container{
+    width:96.9%;
+    height:110%;
+    background-color: #FAFAFA;
+    position: absolute;
+    top:180px;
+    left: 1em;
+    font-family : "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+.category li{
+    padding: 10px;
+    font-size: 20px;
+}
+.category li a{
+    text-decoration: none;
+}
+
+.category li a:hover{
+    text-decoration: underline;
+}
+
+#fiction1,#fiction1details,#History1details,#novels1details,#romance1details,#science1details,#thriller1details{
+    position: absolute;
+    top:80px;
+    left:300px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    transition: 0.3s; 
+}
+
+#fiction1details:hover,#History1details:hover,#novels1details:hover,#romance1details:hover,#science1details:hover,#thriller1details:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#fic1,#f1,#h1,#n1,#r1,#s1,#t1{
+    position: absolute;
+    top: 240px;
+    left:300px;
+    font-size: 17px;
+}
+
+#history1,#fiction2details,#History2details,#novels2details,#romance2details,#science2details,#thriller2details{
+    position: absolute;
+    top: 80px;
+    left: 650px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+#fiction2details:hover,#History2details:hover,#novels2details:hover,#romance2details:hover,#science2details:hover,#thriller2details:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#his1,#f2,#h2,#n2,#r2,#s2,#t2,#ficbook1{
+    position: absolute;
+    top:240px;
+    left:650px;
+    font-size: 17px;
+}
+
+#novel1,#fiction3details,#History3details,#novels3details,#romance3details,#science3details,#thriller3details{
+    position: absolute;
+    top:80px;
+    left:1000px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+#fiction3details:hover,#History3details:hover,#novels3details:hover,#romance3details:hover,#science3details:hover,#thriller3details:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#nov1,#f3,#h3,#n3,#r3,#s3,#t3{
+    position: absolute;
+    top:240px;
+    left:1000px;
+    font-size: 17px;
+}
+
+#romance1,#fiction4details,#History4details,#novels4details,#romance4details,#science4details,#thriller4details{
+    position: absolute;
+    top:350px;
+    left:300px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+#fiction4details:hover,#History4details:hover,#novels4details:hover,#romance4details:hover,#science4details:hover,#thriller4details:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#rom1,#f4,#h4,#n4,#r4,#s4,#t4{
+    position: absolute;
+    top:520px;
+    left:300px;
+    font-size: 17px;
+}
+
+#technology1,#fiction5details,#History5details,#novels5details,#romance5details,#science5details,#thriller5details{
+    position: absolute;
+    top: 350px;
+    left: 650px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+#fiction5details:hover,#History5details:hover,#novels5details:hover,#romance5details:hover,#science5details:hover,#thriller5details:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#tech1,#f5,#h5,#n5,#r5,#s5,#t5{
+    position: absolute;
+    top: 520px;
+    left:650px;
+    font-size: 17px;
+}
+
+#thriller1,#fiction6details,#History6details,#novels6details,#romance6details,#science6details,#thriller6details{
+    position: absolute;
+    top: 350px;
+    left: 1000px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+#fiction6details:hover,#History5details:hover,#novels6details:hover,#romance6details:hover,#science6details:hover,#thriller6details:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#thril1,#f6,#h6,#n6,#r6,#s6,#t6{
+    position: absolute;
+    top: 520px;
+    left: 1000px;
+    font-size: 17px;
+}
+
+#ficbook1,#histbook1,#novelbook1,#romancbook1,#techbook1,#thrillbook1{
+    position: absolute;
+    top: 220px;
+    left: 420px;
+    font-size: 22px;
+}
+
+#fiction1,#history1,#novel1,#romance1,#technology1,#thriller1{
+    position: absolute;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    transition: 0.3s; 
+}
+
+#fiction1:hover,#history1:hover,#novel1:hover,#romance1:hover,#technology1:hover,#thriller1:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.booklinks{
+    position: absolute;
+    left: 500px;
+    top: 15px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.booklinks:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.bidbutton,.backbutton {
+    background-color: #b3b3b3;
+    border: none;
+    color: black;
+    padding: 5px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.bidbutton:hover,.backbutton:hover{
+    background-color: #4195fc;
+    border: 1px solid rgba(0,0,0,.1);
+    color: rgb(255,255,255);
+    cursor: pointer;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.bidbutton{
+    position: absolute;
+    left: 470px;
+    top: 470px;
+}
+
+.backbutton{
+    position: absolute;
+    left: 640px;
+    top: 470px;
+}
+
+#sellerinfo{
+    position: absolute;
+    left: 1030px;
+    top: 36px;
+    font-size: 20px;
+}
+#sellerinfohead{
+    position: absolute;
+    left: 1030px;
+}
+
+details,td{
+    padding: 3px;
+    font-size: 17px;
+}
+
+.details{
+    position: absolute;
+    left: 450px;
+    top: 235px;
+}
+
+#sucsImg{
+    position: relative;
+    top:75px;
+    left: 24em;
+}
+
+#bidCfm{
+    position: relative;
+    top: 6.2em;
+    left: 0.6em;
+    height: 39em;
+    width: 97%;
+    background-color: #FAFAFA;
+}
+
+#confirmBid{
+    position: relative;
+    top: 10px;
+    left: 25em;
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.footerCfm {
+	padding: 5px 0;
+	position: relative;
+        top:110px;
+        left:10px;
+        width: 97%;
+        height: 40px;
+	font-family:"Open Sans", Arial, Helvetica, Geneva, sans-serif;
+        font-size: 12px;
+        color: whitesmoke;
+        background-color: black;
+}
+
+.footer{
+    	padding: 5px 0;
+	position: relative;
+        top: 63em;
+        left:0.5em;
+        width: 98%;
+        height: 40px;
+	font-family:"Open Sans", Arial, Helvetica, Geneva, sans-serif;
+        font-size: 12px;
+        color: whitesmoke;
+        background-color: black;
+    
+}

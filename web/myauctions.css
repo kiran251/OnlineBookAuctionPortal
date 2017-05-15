@@ -1,0 +1,285 @@
+#logo{
+    position: absolute;
+    left: 3.125em;
+    top: 0.625em;
+}
+#title{
+    position: relative;
+    left: 12em;
+    top: 0.75em;
+    color: brown;
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 2.0em;
+}
+#search{
+    float:right;
+    padding:1.25em;
+}
+.tfbutton {
+    padding: 0.3125em 0.9375em;
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    font-size:0.875em;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    border: 1px solid #0076a3; border-right:0px;
+    background: #BEB5B2;
+    position: absolute;
+    right: 6.25em;
+    top: 1.875em;
+}
+.tftextinput{
+    padding: 0.3125em 0.9375em;
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    font-size:0.875em;
+    border:1px solid #0076a3; border-right:0px;
+    position: absolute;
+    right: 11em;
+    top: 1.875em;
+    border-top-left-radius: 5px 5px;
+    border-bottom-left-radius: 5px 5px;
+}
+
+.logout{
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    right:110px;
+    top:80px;
+}
+
+.myAcc{
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    right:220px;
+    top: 80px;
+}
+
+#menuBar{
+    position: absolute;
+    top: 7.5em;
+}
+nav {
+    background-color: #3b5998;
+    border: 0.0625em solid #dedede;
+    border-radius: 0.25em;
+    box-shadow: 0 0.125em 0.125em -0.0625em rgba(0, 0, 0, 0.055);
+    color: white;
+    display: block;
+    margin: 0.05em  0.5em 1.375em;
+    overflow: hidden;
+    width: 81.25em;
+    height: 3.125em;
+    
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 1.125em;
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    
+}
+nav ul li a {
+    color: white;
+    display: block;
+    line-height: 3.5em;
+    padding: 0 1.5em;
+    text-decoration: none;
+}
+nav ul  li:hover {
+    background-color: #6d84b4;
+}
+nav  ul li:hover a {
+    color: white;
+}
+
+#myauctions{
+    position: relative;
+    top: 5.8em;
+    left: 0.7em;
+    height: 40em;
+    width:96.7%;
+    background-color: #FAFAFA;
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    
+}
+#post1det{
+    font-size: 15px;
+}
+
+#post1{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+
+#post2{
+    position: absolute;
+    top: 2.5em;
+    left: 18em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#post2det{
+    position: absolute;
+    top: 13em;
+    left: 17.5em;
+    font-size: 15px;
+}
+
+#post3{
+    position: absolute;
+    top: 2.5em;
+    left: 35em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#post3det{
+    position: absolute;
+    top: 13em;
+    left: 37em;
+    font-size: 15px;
+}
+
+.remove{
+    background-color: #b3b3b3;
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.remove:hover{
+    background-color: #4195fc;
+    border: 1px solid rgba(0,0,0,.1);
+    color: rgb(255,255,255);
+    cursor: pointer;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+#remBut{
+    position: absolute;
+    top: 16em;
+    left: 40em;
+}
+
+#remCfm{
+    position: relative;
+    top: 5.8em;
+    left: 0.7em;
+    height: 40em;
+    width:96.7%;
+    background-color: #FAFAFA;
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+}
+
+#sucsImg{
+    position: absolute;
+    top:4em;
+    left: 12em;
+}
+
+#removeCfmText{
+    position: absolute;
+    top: 4em;
+    left: 14em;
+}
+#bid1{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#bid2{
+    position: absolute;
+    top:20em;
+    left:18em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#bid2det{
+    position: absolute;
+    top: 29.5em;
+    left:18em;
+}
+
+#bid3{
+    position: absolute;
+    top: 20em;
+    left: 35em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#bid3det{
+    position: absolute;
+    top: 29.5em;
+    left: 35em;
+}
+
+#bidpayment{
+    position: relative;
+    top: 6em;
+    left:0.7em;
+    height: 40em;
+    width: 97%;
+    background-color: #FAFAFA;
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+}
+
+#bidpay{
+    position: absolute;
+    top: 1em;
+    left: 33em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#bidpay:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#bidpaydet{
+    position: absolute;
+    top: 16em;
+    left: 34em;
+}
+
+#post1:hover,#post2:hover,#post3:hover,#bid1:hover,#bid2:hover,#bid3:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    
+}
+
+.footer {
+	padding: 0.625em 0;
+	position: absolute;
+        left: 1.2em;
+        bottom: 0px;
+        width: 95.1%;
+        height: 3%;
+	font-family:"Open Sans", Arial, Helvetica, Geneva, sans-serif;
+        font-size: 0.75em;
+        color: whitesmoke;
+        background-color: black;
+}

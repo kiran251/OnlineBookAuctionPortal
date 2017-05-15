@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Gone Girl</title>
+        <link rel="stylesheet" type="text/css" href="buyorbid.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            function validate(){
+            if(document.bidForm.book1.value.length === 0){
+                document.getElementById('error').innerHTML = "Please enter your Bid amount";
+                return false;
+            }
+            var bidAmount = parseInt(document.bidForm.book1.value); 
+            if(bidAmount <=20){
+                document.getElementById('error').innerHTML ="Please enter bid amount greater than minimum bid";
+                return false;
+            }
+            return true;
+        }
+        </script>
+    </head>
+    <body>
+        <div>
+            <section class="header">
+                <img src="logo.png" alt="logo" name="logo" id="logo" height="100" width="200"/>
+                <h1 id="title"> Sell and Buy Books in an Auction</h1>
+                <div id="search">
+                    <input type="search" class="tftextinput" size="21" maxlength="120" placeholder="Search here"><input type="submit" value="Search" class="tfbutton">
+                </div>
+                <div class="myAcc">
+                    <a href="MyAccount.jsp">My Account</a>
+                </div>    
+                <div class="logout">
+                    <a href="Login.jsp">Logout</a>
+                </div>
+            </section>
+        </div>
+        <div id ="wrapper">
+            <section id="menuBar">
+                <nav>
+                <ul class="navi">      
+                    <li><a href="HomePage.jsp" style="color: white">Home</a></li>
+                    <li><a href="BuyorBid.jsp" style="color: white">Buy/Bid at Auction</a></li>
+                    <li><a href="Sellbooks.jsp" style="color: white">Sell at Auction</a></li>
+                    <li><a href="Aboutuslogin.html" style="color: white">About Us</a></li>
+                    <li><a href="Contactuslogin.html" style="color:white">Contact Us</a></li>
+                    <li><a href="Myauctions.jsp" style="color: white">My Auctions</a></li>
+                    
+                </ul>
+                </nav>
+            </section>  
+        </div>
+        <section id="container">
+        <a href="#" class="booklinks"><img id="thrillerbook1" src="images/thriller1.jpg" alt="thriller1" height="200" width="200"/></a>
+        <!--<p id="thrillbook1">Book Name &nbsp&nbsp&nbsp: Gone Girl <br>
+            Description &nbsp&nbsp&nbsp&nbsp: Thriller Story<br>
+            Author Name &nbsp: Gillian Flynn <br>
+            ISBN Number : 12345678<br> Minimum Bid &nbsp: $15.00<br>
+            Bid End Date &nbsp: 04/15/2016<br>
+            Current Bid &nbsp&nbsp&nbsp&nbsp: NA<br>
+            Your Bid &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: <input type="text" name="book1" placeholder="Enter your Bid Amount"><br><br>
+        </p>-->
+        <form action="BidCfm.jsp" name="bidForm" onsubmit="return validate()">
+        <table class="details">
+            <tr>
+                <td><b>Book Name</b></td>
+                <td>: Gone Girl</td>
+            </tr>
+            <tr>
+                <td><b>Description</b></td>
+                <td>: Thriller Story</td>
+            </tr>
+            <tr>
+                <td><b>Author Name</b></td>
+                <td>: Gillian Flynn</td>
+            </tr>
+            <tr>
+                <td><b>ISBN Number</b></td>
+                <td>: 12345678</td>
+            </tr>
+            <tr>
+                <td><b>Minimum Bid</b></td>
+                <td>: $15.00</td>
+            </tr>
+            <tr>
+                <td><b>Bid End Date</b></td>
+                <td>: 05/15/2016</td>
+            </tr>
+            <tr>
+                <td><b>Current Bid</b></td>
+                <td>: NA</td>
+            </tr>
+            <tr>
+                <td><b>Your Bid</b></td>
+                <td>: $ <input type="text" name="book1" placeholder="Enter your Bid Amount">&nbsp;<span id="error" style="color: red;font-size: 14px;"></span></td>
+            </tr>
+        </table>    
+        <h2 id="sellerinfohead">Seller Info</h2>
+        <p id="sellerinfo">
+          Seller Name : Universal Books<br>
+          Contact No &nbsp; : 9849380570
+          </p>
+          <input type="submit" class="bidbutton" name="Bid" value="Bid"> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <a href="Thrillers_1.jsp"><input type="button" class="backbutton" name="Back" value="Back"></a>
+        </form>
+        </section>
+        </body>
+</html>
+
+

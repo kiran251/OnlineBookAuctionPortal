@@ -1,0 +1,97 @@
+
+body{
+    background-color: #FAFAFA;
+    
+}
+#logo{
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+#title{
+    position: absolute;
+    left: 450px;
+    top: 12px;
+    color: brown;
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    font-size: 2.0em;
+}
+h2{
+text-align: left;
+font-size: 24px;
+}
+
+div.container{
+width: 650px;
+height: 500px;
+margin:40px auto;
+font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+font-size: 13px;
+position:relative;
+left: 130px;
+top: 100px;
+
+}
+
+
+input[type=text],[type=email],[type=password] {
+width: 58%;
+height: 34px;
+padding-left: 5px;
+margin-bottom: 10px;
+margin-top: 8px;
+box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.08);
+border: 1px solid rgb( 186, 186, 186 );
+border-radius: 2px;
+background-color: rgb(255,255,255);
+font-size: 16px;
+}
+
+input[type=text]:focus,[type=email]:focus,[type=password]:focus{
+    border-color: #4195fc;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 0 8px #4195fc;
+    color: rgb(0,0,0);
+}
+label{
+color: black;
+text-shadow: 0 1px 0 #fff;
+font-size: 14px;
+font-weight: 600;
+}
+
+#register, #cancel {
+font-size: 15px;
+margin-top: 15px;
+background-color: #b3b3b3;
+border: 1px solid #0F799E;
+padding: 7px 35px;
+color: black;
+text-shadow: 0px 1px 0px #13506D;
+font-weight: 100;
+border-radius: 2px;
+cursor: pointer;
+width: 29%;
+display: inline-block;
+}
+#register:hover, #cancel:hover{
+background-color: #4195fc;
+}
+#error,#error1,#error2,#error3,#error4{
+    color:red;
+    font-family: "Open Sans", Arial, Helvetica, Geneva, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.footer {
+	padding: 10px 0;
+	position: absolute;
+        left: 20px;
+        bottom: 5px;
+        width: 96%;
+        height: 3%;
+	font-family:"Open Sans", Arial, Helvetica, Geneva, sans-serif;
+        font-size: 12px;
+        color: whitesmoke;
+        background-color: black;
+}
