@@ -8,7 +8,7 @@ package bean;
 public class LoginBean {
     private String userName;
     private String password;
-
+    // Getter and Setter Methods for username and password fields
     public String getUserName() {
         return userName;
     }
